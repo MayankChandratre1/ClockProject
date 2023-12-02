@@ -3,15 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
     <title>Clock</title>
 </head>
 <body>
+
+
     <div class="container">
+        <div class="ampm font"></div>
         <div class="clock">
-            <div class="cir cir1"></div>
-            <div class="cir cir2"></div>
-            <div class="cir cir3"></div>
+            <div class="cir cir1" style="--clr: var(--purpleDark)"></div>
+            <div class="cir cir2" style="--clr: var(--pinkish)"></div>
+            <div class="cir cir3" style="--clr: var(--sand)"></div>
+        </div>
+        <div class="digital font">
+            <div class="time hr"></div>
+            <div class="time mm"></div>
+            <div class="time ss"></div>
         </div>
     </div>
+    
+    <footer class="font" style="color:black">&copy Mayank Chandratre</footer>
+
+    <script src="./index.js"></script>
 </body>
 </html>
